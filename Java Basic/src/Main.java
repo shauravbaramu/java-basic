@@ -7,11 +7,29 @@ class Pen {
         System.out.println("The specifications of this pen are:");
         System.out.println(this.color + " " + this.type);
     }
+    //Non Parameterized Constructor
+    Pen(){
+        this.color = "red";
+        this.type = "gel";
+        System.out.println("New Color: " + this.color);
+    }
 }
+
+
 
 class Student{
     String name;
     int age;
+
+    //Parameterized constructor
+    Student(String name, int age){
+        this.name = name;
+        this.age = age;
+
+    }
+    public void writeName(){
+        System.out.println(this.name + this.age);
+    }
 }
 
 public class Main {
@@ -26,5 +44,8 @@ public class Main {
         pen2.type = "Gel Pen";
         pen1.write();
         pen2.write();
+
+        Student s1 = new Student("Saurav",23);
+        s1.writeName();
     }
 }
