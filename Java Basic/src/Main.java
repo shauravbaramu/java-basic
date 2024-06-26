@@ -4,7 +4,7 @@ class Pen {
 
     public void write(){
         System.out.println("The specifications of this pen are:");
-        System.out.println(color + " " + type);
+        System.out.println(this.color + " " + this.type);
     }
 }
 
