@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane; // Simple GUI dialog box for user input and show messages
+//import javax.swing.JOptionPane; // Simple GUI dialog box for user input and show messages
 import java.util.Scanner; // Used to take user input
 
 
@@ -33,15 +33,38 @@ public class Practice {
         System.out.println("Your Age is " + age);
         System.out.println("Your favourite food is " + food);
 
-        if (age <= 19) {
-            System.out.println("You are a Teenager "+ name);
-        }
-        else if (age >= 20) {
-            System.out.println("You are an adult "+ name);
+//        if (age <= 19) {
+//            System.out.println("You are a Teenager "+ name);
+//        }
+//        else {
+//            System.out.println("You are an adult "+ name);
+//
+//        }
+
+        //Switch and Cases
+        System.out.println("What day is today?");
+        String day = sc.nextLine();
+
+        switch (day) {
+            case "Sunday": System.out.println("It is Sunday");
+            break;
+            case "Monday": System.out.println("It is Monday");
+            break;
+            case "Tuesday": System.out.println("It is Tuesday");
+            break;
+            case "Wednesday": System.out.println("It is Wednesday");
+            break;
+            case "Thursday": System.out.println("It is Thursday");
+            break;
+            case "Friday": System.out.println("It is Friday");
+            break;
+            case "Saturday": System.out.println("It is Saturday");
 
         }
 
 
 
+
+        sc.close();
     }
 }
