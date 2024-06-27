@@ -28,10 +28,16 @@ public class Practice {
         System.out.println("What is your favourite food?");
         String food = sc.nextLine();
 
+        System.out.println("What is your favourite color?");
+        String color = sc.nextLine();
+
+
+
 
         System.out.println("Your Name is " + name);
         System.out.println("Your Age is " + age);
         System.out.println("Your favourite food is " + food);
+        System.out.println("Your color is " + color);
 
 //        if (age <= 19) {
 //            System.out.println("You are a Teenager "+ name);
