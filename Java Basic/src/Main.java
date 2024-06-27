@@ -1,6 +1,8 @@
-//Object Oriented Programming
+//Object Oriented Programming like Class Constructor (parameterized non parameterized)
 // Learned about various Inheritances
 // Learned about polymorphism (It is having multiple functions with same name. can be used different methods by passing parameters)
+// Learned about various Packages access modifiers (public, Protected and Private)
+// Encapsulation
 
 
 
