@@ -2,7 +2,8 @@
 // Learned about various Inheritances
 // Learned about polymorphism (It is having multiple functions with same name. can be used different methods by passing parameters)
 // Learned about various Packages access modifiers (public, Protected and Private)
-// Encapsulation
+// Encapsulation (Data Hiding and Abstraction)
+// Constructor Chaining
 
 
 
