@@ -33,6 +33,15 @@ public class Practice {
         System.out.println("Your Age is " + age);
         System.out.println("Your favourite food is " + food);
 
+        if (age <= 19) {
+            System.out.println("You are a Teenager "+ name);
+        }
+        else if (age >= 20) {
+            System.out.println("You are an adult "+ name);
+
+        }
+
+
 
     }
 }
