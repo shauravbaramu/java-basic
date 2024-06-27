@@ -45,7 +45,8 @@ public class Practice {
         System.out.println("What day is today?");
         String day = sc.nextLine();
 
-        switch (day.toLowerCase()) {
+        switch (day.toLowerCase()) { // Here used toLowerCase function so that the switch works regardless of whatever may be the input case like user
+                                        // might inout capitalized or smaller.
             case "sunday": System.out.println("It is Sunday");
             break;
             case "monday": System.out.println("It is Monday");
