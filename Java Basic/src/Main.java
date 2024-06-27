@@ -1,5 +1,6 @@
 //Object Oriented Programming
 // Learned about various Inheritances
+// Learned about polymorphism (It is having multiple functions with same name. can be used different methods by passing parameters)
 
 
 
